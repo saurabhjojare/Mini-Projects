@@ -28,7 +28,7 @@ public class RegistrationServlet extends HttpServlet {
         // Database connection information
         String url = "jdbc:mysql://localhost:3306/techhub";
         String username = "root";
-        String dbPassword = "Saurabh@148";
+        String dbPassword = "root";
 
         try {
             // Load the MySQL JDBC driver
