@@ -27,7 +27,7 @@ public class LoginServlet extends HttpServlet {
         // Database connection information
         String url = "jdbc:mysql://localhost:3306/techhub";
         String dbUsername = "root";
-        String dbPassword = "Saurabh@148";
+        String dbPassword = "root";
 
         // SQL query to retrieve user's name
         String nameQuery = "SELECT firstname FROM registration WHERE firstname = ? AND password = ?";
