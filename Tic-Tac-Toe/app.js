@@ -60,17 +60,26 @@ const showWinner = (winner) => {
 }
 
 const chechWinner = () => {
+    let isDraw = true;
     for (let pattern of winPatterns) {
-            let pos1val = boxes[pattern[0]].innerText;
-            let pos2val = boxes[pattern[1]].innerText;
-            let pos3val = boxes[pattern[2]].innerText;
+        let pos1val = boxes[pattern[0]].innerText;
+        let pos2val = boxes[pattern[1]].innerText;
+        let pos3val = boxes[pattern[2]].innerText;
 
-            if(pos1val != "" && pos2val != "" && pos3val != "") {
-                if(pos1val === pos2val && pos2val === pos3val) {
-                    console.log("Winner is", pos1val);
-                    showWinner(pos1val);
-                }
+        if (pos1val !== "" && pos2val !== "" && pos3val !== "") {
+            if (pos1val === pos2val && pos2val === pos3val) {
+                console.log("Winner is", pos1val);
+                showWinner(pos1val);
+                return; 
             }
+        } else {
+            isDraw = false;
+        }
+    }
+    
+    if (isDraw) {
+        msg.innerText = "It's a draw";
+        disableBoxes();
     }
 }
 
