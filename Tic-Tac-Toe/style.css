@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #332D2D;
+    margin-top: 6vmin;
+}
+
+body {
+    text-align: center;
+    
+}
+
+.container {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 14vmin;
+    width: 14vmin;
+    border-radius: 0rem;
+    border: none; 
+    border-bottom: 0.5px solid #807A7A; 
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0, 0.3);
+    background-color: #fff;
+    font-size: 8vmin;
+    color: #5E5656;
+}
+
+.player-o {
+    color: blue; 
+}
+
+.player-x {
+    color: red; 
+}
+
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-bottom: 1vmin;
+    margin-top: 1.5vmin;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1vmin;
+}
+
+#msg {
+    font-size: 30px;
+    margin-top: 3vmin;
+}
+
+.hide {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+
+    .container {
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .game {
+        height: 50vmin;
+        width: 70vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8vmin;
+    }
+
+    .box {
+        height: 14vmin;
+        width: 17vmin;
+        border-radius: 0rem;
+        border: none; 
+        border-bottom: 0.5px solid #807A7A; 
+        box-shadow: 0 0 1rem rgb(0, 0, 0, 0, 0.3);
+        background-color: #fff;
+        font-size: 8vmin;
+        color: #5E5656;
+    }
+
+    #reset-btn {
+        padding: 1rem;
+        font-size: 1rem;
+        border-radius: 1rem;
+        border: none;
+        margin-bottom: 1vmin;
+        margin-top: 10vmin;
+    }
+
+    .player-o {
+        color: #BDA9A9; 
+    }
+    
+    .player-x {
+        color: #571010; 
+    }
+
+    .msg{
+        color: #857B7B;
+    }
+    
+  }
