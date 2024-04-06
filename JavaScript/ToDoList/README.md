@@ -15,7 +15,7 @@ This is a simple To-Do List web application built using HTML, CSS, and JavaScrip
 
 2. **Completing a Task**: Click on the checkbox next to a task to mark it as completed. Completed tasks are crossed out.
 
-3. **Deleting a Task**: Click on the "DELETE" button next to a task to remove it from the to-do list. The deleted task will be moved to the "Completed Tasks" section.
+3. **Deleting a Task**: Click on the "DELETE" button next to a task to remove it from the to-do list.
 
 ## How to Run
 
