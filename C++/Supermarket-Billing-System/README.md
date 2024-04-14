@@ -21,11 +21,13 @@ The Supermarket Billing System is a console-based application that provides func
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/saurabhjojare/supermarket-billing-system.git
+   git clone https://github.com/saurabhjojare/Mini-Projects.git
 
-1. Compile and run the .dev file using a C++ compiler.
+2. Go To Supermarket-Billing-System
 
-2. Follow the on-screen prompts to navigate through the application.
+3. Compile and run the .dev file using a C++ compiler.
+
+4. Follow the on-screen prompts to navigate through the application.
 
 ## Contributing
 Contributions are welcome! If you have suggestions, enhancements, or find any issues, feel free to open an issue or submit a pull request.
