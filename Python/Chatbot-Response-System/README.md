@@ -28,9 +28,11 @@ pip install nltk
 1. Ensure you have Python installed on your machine (version 3.6 or higher).
 2. Clone this repository to your local machine using the following command:
    
-git clone https://github.com/saurabhjojare/Chatbot-Response-System.git
+   git clone https://github.com/saurabhjojare/Mini-Projects.git
 
-3. Start the application by running the following command:
+3. Go to Chatbot-Response-System
+
+4. Start the application by running the following command:
    
 * Jupyter Notebook
 
